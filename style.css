@@ -1,0 +1,25 @@
+
+body {
+  background: linear-gradient(145deg, #0f0f1f, #1f1f2f);
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+.button {
+  padding: 12px 24px;
+  margin: 10px;
+  background: #7f00ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.button.secondary {
+  background: #555;
+}
